@@ -9,13 +9,10 @@ This project analyzes the NASA Nearest Earth Objects (NEO) dataset from 1910 to 
 1. Perform exploratory data analysis (EDA) and visualization.
 2. Preprocess the data with outlier removal, feature engineering, and scaling.
 3. Train and evaluate machine learning models (Logistic Regression, Random Forest, XGBoost) to classify hazardous NEOs.
-4. Provide detailed insights into factors influencing hazardousness.
 
 ## Dataset
-- Source: Kaggle (`neo_v2.csv`)
+- Source: [Kaggle](https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024/data).
 - Features: est_diameter_min, est_diameter_max, relative_velocity, miss_distance, absolute_magnitude, hazardous (target), etc.
 - Size: ~90k rows
 
-## Requirements
-- Python 3.x
-- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, imblearn
+
